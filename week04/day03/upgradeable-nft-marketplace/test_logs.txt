@@ -1,0 +1,22 @@
+No files changed, compilation skipped
+
+Ran 3 tests for test/NFTMarketplace.t.sol:NFTMarketplaceTest
+[PASS] test_BuyNFT() (gas: 223080)
+[PASS] test_ListNFT() (gas: 154500)
+[PASS] test_UpgradeToV2() (gas: 2133231)
+Suite result: ok. 3 passed; 0 failed; 0 skipped; finished in 632.58µs (352.67µs CPU time)
+
+Ran 5 tests for test/MyNFT.t.sol:MyNFTTest
+[PASS] test_Initialize() (gas: 28753)
+[PASS] test_SafeMint() (gas: 91298)
+[PASS] test_SafeMintOnlyOwner() (gas: 21482)
+[PASS] test_Upgrade() (gas: 1281533)
+[PASS] test_UpgradeOnlyOwner() (gas: 1263362)
+Suite result: ok. 5 passed; 0 failed; 0 skipped; finished in 697.29µs (405.00µs CPU time)
+
+Ran 2 tests for test/Counter.t.sol:CounterTest
+[PASS] testFuzz_SetNumber(uint256) (runs: 256, μ: 31210, ~: 31288)
+[PASS] test_Increment() (gas: 31303)
+Suite result: ok. 2 passed; 0 failed; 0 skipped; finished in 3.61ms (3.49ms CPU time)
+
+Ran 3 test suites in 313.12ms (4.94ms CPU time): 10 tests passed, 0 failed, 0 skipped (10 total tests)
