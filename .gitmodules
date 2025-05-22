@@ -7,3 +7,6 @@
 [submodule "week04/day03/upgradeable-nft-marketplace/lib/openzeppelin-contracts"]
 	path = week04/day03/upgradeable-nft-marketplace/lib/openzeppelin-contracts
 	url = https://github.com/OpenZeppelin/openzeppelin-contracts
+[submodule "week04/day04/ctf/lib/forge-std"]
+	path = week04/day04/ctf/lib/forge-std
+	url = https://github.com/foundry-rs/forge-std
