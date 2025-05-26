@@ -97,7 +97,7 @@ contract NFTMarketplaceTest is Test {
 
         // 验证升级后状态保持一致
         assertEq(marketplace.marketFeeRate(), originalFeeRate);
-        
+
         // 测试是否成功升级
         assertTrue(address(marketplaceV2) != address(0), "V2 implementation deployed");
     }
