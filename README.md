@@ -1,8 +1,26 @@
-# Learn Blockchain
+# Foundry Project
 
-这是一个区块链学习项目，包含以下内容：
+这是一个使用 Foundry 框架的智能合约项目。
 
-- Week01：第一周学习内容
-- Week02：第二周学习内容
-- Week03：第三周学习内容
-- Week04：第四周学习内容 
+## 开发环境设置
+
+```bash
+# 安装依赖
+forge install
+
+# 编译合约
+forge build
+
+# 运行测试
+forge test
+
+# 部署合约
+forge script script/Deploy.s.sol:Deploy --rpc-url <your_rpc_url> --private-key <your_private_key>
+```
+
+## 项目结构
+
+- `src/`: 合约源代码
+- `test/`: 测试文件
+- `script/`: 部署脚本
+- `lib/`: 依赖库 
