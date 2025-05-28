@@ -1,7 +1,7 @@
 // SPDX-License-Identifier: MIT
-pragma solidity ^0.8.20;
+pragma solidity ^0.8.19;
 
-import {Test, console2} from "forge-std/Test.sol";
+import "forge-std/Test.sol";
 import "../src/StakingPool.sol";
 import "../src/KKToken.sol";
 import "./mocks/MockPool.sol";
